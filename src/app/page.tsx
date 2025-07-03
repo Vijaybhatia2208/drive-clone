@@ -48,7 +48,7 @@ export default function GoogleDriveClone() {
               variant="ghost"
               className="text-gray-300 hover:text-white mr-2"
             >
-              My Drive
+              My Drive Clone
             </Button>
             {getBreadcrumbs().map((folder, index) => (
               <div key={folder.id} className="flex items-center">
